@@ -1,0 +1,65 @@
+###################RITESH#############KUMAR############################
+
+
+make folder using pycharm as e-comm
+
+django-admin startproject blackpearl
+
+cd blackpearl
+
+python manage.py runserver
+#check for server confirmation
+#django rocket and ip
+
+
+
+python manage.py startapp shop
+
+python manage.py runserver
+#check for server confirmation
+#django rocket and ip
+
+in shop make python file as 
+urls.py (for path forward)
+views.py (for redirection)
+template as directory
+template>> index.html as main ip page
+
+
+in shop make directory
+in shop
+>>templates (as folder)
+>>>shop (as folder for all html files)
+
+in >shop>templates>>shop>
+about.html
+checkout.html
+contact.html
+productview.html
+index.html
+tracker.html
+
+#for database upgrade
+
+python manage.py makemigrations
+python manage.py migrate
+
+#for superuser
+
+python manage.py createsuperuser
+
+url/admin
+
+copy all files as same from github
+and add product manually from admin portal 
+
+
+Enjoy!!!!
+
+###################RITESH#############KUMAR############################
+
+~RITESH KUMAR
+ritesh
+1234
+riteshk2311
+
